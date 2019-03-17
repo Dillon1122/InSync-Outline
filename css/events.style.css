@@ -252,3 +252,10 @@ footer h3{
     font-size: 1.5rem;
   }
 }
+
+@media (min-width: 101.1875rem){/*1619px*/
+  .big_img img{
+    height: 60rem;
+  }
+
+}
