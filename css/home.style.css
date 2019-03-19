@@ -76,6 +76,9 @@ header a:hover{
   position: absolute;
   top: 0;
 }
+.mySlides img{
+  width: 100%;
+}
 
 /* The dots/bullets/indicators */
 /*.dot {
