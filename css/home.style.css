@@ -259,6 +259,13 @@ footer h3{
   padding: 1rem;
   font-size: 1.5rem;
 }
+footer p{
+  font-size: 9px;
+  color: gray;
+}
+footer p a{
+  color: lightgray;
+}
 
 /*Location*/
 .location-container{
