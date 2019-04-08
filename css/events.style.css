@@ -128,27 +128,61 @@ hr{
 
 /*Footer*/
 footer{
-  position: relative;
-  top: 2.5rem;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  padding-top: 1rem;
-  border-bottom: 1rem solid #fff;
+  background-color: #737171;
 }
-footer h3{
-  display: block;
+.foot_of_page{
+  padding-top: 3rem;
+}
+.foot_of_page h2{
+  font-size: 2rem;
   margin: 1rem;
-  padding: 1rem;
-  font-size: 1.5rem;
+  color: #342F2F;
 }
-footer p{
-  font-size: 9px;
-  color: gray;
+.foot_of_page a{
+  color: #fff;
+  display: inline;
+  text-decoration: none;
 }
-footer p a{
-  color: lightgray;
+.foot_of_page a:hover{
+  text-decoration: underline;
+}
+.footer_section{
+  margin: 3rem 0;
+}
+.footer_section p{
+  line-height: 2rem;
+}
+.last_section{
+  margin-bottom: 0;
+  padding-bottom: 3rem;
+}
+.last_section h2{
+  margin-bottom: 3rem;
+}
+.fa {
+  padding: 1.5rem;
+  font-size: 2rem;
+  width: 6rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 2rem;
+  display: inline;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
 }
 
 
@@ -192,6 +226,12 @@ footer p a{
   .big_img img{
     border: none;
     border-top: 3px solid #fff;
+  }
+  footer{
+    text-align: left;
+  }
+  .footer_section{
+    margin-left: 4rem;
   }
 }
 
@@ -257,6 +297,15 @@ footer p a{
     padding: .5rem;
     margin: 2rem;
     font-size: 1.5rem;
+  }
+  .footer_section h2{
+    font-size: 3rem;
+  }
+  .footer_section p{
+    font-size: 1.5rem;
+  }
+  .fa{
+    margin: 1.25rem;
   }
 }
 
