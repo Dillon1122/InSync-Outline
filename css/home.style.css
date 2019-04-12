@@ -60,10 +60,10 @@ header a:hover{
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+  font-size: 1rem;
+  padding: .5rem 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: .5rem;
   width: 100%;
   text-align: center;
 }
@@ -201,13 +201,13 @@ header a:hover{
   padding: 2rem;
 }
 .location-container h1{
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   text-decoration: none;
   margin-bottom: 2rem;
   margin-top: 1.5rem;
   padding-bottom: 0;
-
+  color: #737171;
 }
 .location-container p{
   width: 90%;
@@ -247,11 +247,12 @@ header a:hover{
   text-align: center;
   padding: 2rem;
   padding-bottom: 0;
+  color: #737171;
 }
 .Equipment p{
   width: 80%;
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 2.5rem;
   margin-top: 2rem;
 }
@@ -263,6 +264,9 @@ header a:hover{
 }
 .second_paragraph{
   padding-top: 2.5rem;
+}
+section hr{
+  width: 28%;
 }
 
 
