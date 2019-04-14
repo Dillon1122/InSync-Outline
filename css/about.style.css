@@ -10,6 +10,7 @@ html{
   text-align: center;
   margin: auto;
   font-family: "Times New Roman", Times, serif;
+  max-width: 100%;
 }
 
 /*Navigation Bar*/
@@ -51,9 +52,19 @@ header a:hover{
 .list2{
   width: 100%;
 }
-.list2 img{
+.main_img{
   width: 100%;
-  height: 35rem;
+  background-image: url("C:/Users/vtw14/OneDrive/Desktop/Insync/Draft_12/resources/team3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat:
+}
+.main_img_content{
+  padding: 11rem;
+}
+.main_img_content h1{
+  font-size: 6rem;
+  color: #fff;
 }
 /*Same Page Links*/
 .same_page_links{
@@ -252,6 +263,9 @@ footer{
     display: inline-block;
     font-size: 1.2rem;
   }
+  .main_img_content{
+    padding: 14rem;
+  }
 
   .whoweare-container{
     width: 90%;
@@ -310,6 +324,9 @@ footer{
   .same_page_links a{
     font-size: 1.25rem;
     margin: 1.5rem;
+  }
+  .main_img_content{
+    padding: 18rem;
   }
   iframe{
     height: 60vh;
@@ -391,5 +408,24 @@ footer{
   }
   iframe{
     height: 75vh;
+  }
+  .main_img_content{
+    padding: 30rem;
+  }
+  .main_img_content h1{
+    width: 100%;
+    font-size: 9.5rem;
+  }
+  .main_img_content p{
+    margin-top: 2rem;
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+
+@media (min-width: 153.125rem){/*2450px*/
+  .main_img_content{
+    padding: 40rem;
   }
 }
