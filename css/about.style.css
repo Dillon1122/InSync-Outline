@@ -57,7 +57,7 @@ header a:hover{
   background-image:url("C:/Users/vtw14/OneDrive/Desktop/Insync/Draft_12/resources/team3.JPG");
   background-position: center;
   background-size: cover;
-  background-repeat:
+  background-repeat: no-repeat;
 }
 .main_img_content{
   padding: 11rem;
