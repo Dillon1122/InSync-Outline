@@ -52,20 +52,32 @@ header a:hover{
 .list2{
   width: 100%;
 }
-.main_img{
+.main_img {
   width: 100%;
-  background-image:url("C:/Users/vtw14/OneDrive/Desktop/Insync/Draft_12/resources/team3.JPG");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.main_img img{
+  width: 100%;
+  max-width: 100%;
 }
 .main_img_content{
-  padding: 11rem;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .main_img_content h1{
-  font-size: 6rem;
-  color: #fff;
+  font-size: 3rem;
+  display: inline-block;
 }
+.main_img_content p{
+  font-size: 1.5rem;
+}
+
+
 /*Same Page Links*/
 .same_page_links{
   width: 100%;
