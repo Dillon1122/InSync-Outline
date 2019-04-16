@@ -68,6 +68,7 @@ header a:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 .main_img_content h1{
   font-size: 3rem;
