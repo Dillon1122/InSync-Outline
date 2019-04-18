@@ -12,6 +12,9 @@ html{
   font-family: "Times New Roman", Times, serif;
   max-width: 100%;
 }
+body{
+  width: 100%;
+}
 
 /*Navigation Bar*/
 .logo img{
@@ -49,10 +52,10 @@ header a:hover{
 
 
 /*Big image*/
-.list2{
+.top{
   width: 100%;
 }
-.main_img {
+.main_img{
   width: 100%;
   position: relative;
   text-align: center;
@@ -68,7 +71,7 @@ header a:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
 }
 .main_img_content h1{
   font-size: 3rem;
@@ -183,6 +186,10 @@ iframe{
   height: 40vh;
 }
 
+/*History*/
+.bottom_img{
+  margin-bottom: 4rem;
+}
 
 
 /*Footer*/
@@ -392,6 +399,9 @@ footer{
   }
   .fa{
     margin: 1.25rem;
+  }
+  .bottom_img{
+    margin-bottom: 7rem;
   }
 
 }
